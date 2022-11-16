@@ -1,0 +1,97 @@
+.todo-controls__wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid #b4b4b4;
+  border-right: 1px solid #b4b4b4;
+  border-bottom: 1px solid #b4b4b4;
+  padding: 16px;
+}
+
+.todo-controls__count {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.btn-block {
+  padding: 8px;
+}
+
+.btn-block:not(:last-child) {
+  margin-right: 15px;
+}
+
+.btn-block:hover {
+  border-radius: 3px;
+  padding: 8px;
+  color: green;
+}
+
+.btn-block:focus {
+  outline: 1px solid green;
+  border-radius: 3px;
+  color: green;
+}
+
+.btn-block__selected {
+  outline: 1px solid green;
+  border-radius: 3px;
+  padding: 8px;
+  color: green;
+}
+
+.btn-clear {
+  padding: 8px;
+  margin-left: 20px;
+}
+
+.btn-clear:hover {
+  border-radius: 3px;
+  color: red;
+}
+
+.btn-clear:focus {
+  outline: 1px solid red;
+  border-radius: 3px;
+  color: red;
+}
+
+.btn-clear__disabled {
+  padding: 8px;
+  margin-left: 20px;
+  opacity: 0.3;
+  cursor: auto;
+}
+
+/* Media query TodoContlols module */
+
+@media (max-width: 768px) {
+  .todo-controls__count {
+    margin-right: 10px;
+  }
+
+  .btn-block:not(:last-child) {
+    margin-right: 12px;
+  }
+
+  .btn-clear {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 539px) {
+  .todo-controls__count {
+    margin-right: 10px;
+  }
+
+  .todo-controls__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn-block:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
