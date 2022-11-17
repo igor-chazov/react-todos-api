@@ -7,7 +7,7 @@ const Page404: React.FC = () => {
         <h1 className="text-danger">404</h1>
         <h3 className="page404-title">Страница не существует !</h3>
         <p className="page404-content">Скорее всего страница была удалена или у нее сменился URL адрес!</p>
-        <a href="/" className="btn btn-home btn-clear">Перейти на главную страницу</a>
+        <a href="/react-todos-api/" className="btn btn-home btn-clear">Перейти на главную страницу</a>
       </div>
     </section>
   );
