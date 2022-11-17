@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-todos-api/static/css/main.73808b79.css",
-    "main.js": "/react-todos-api/static/js/main.c4222a8a.js",
+    "main.js": "/react-todos-api/static/js/main.f837a09c.js",
     "static/js/787.d2810502.chunk.js": "/react-todos-api/static/js/787.d2810502.chunk.js",
     "static/media/OpenSans-Bold.eot": "/react-todos-api/static/media/OpenSans-Bold.0a05d0db5c325aaeaad2.eot",
     "static/media/OpenSans-Bold.ttf": "/react-todos-api/static/media/OpenSans-Bold.dfda0d04b1e6e74eb051.ttf",
@@ -20,11 +20,11 @@
     "static/media/arrow_down.svg": "/react-todos-api/static/media/arrow_down.1afc4c76f18bbba9a022.svg",
     "static/media/arrow_up.svg": "/react-todos-api/static/media/arrow_up.cf1c6b6a204868717d58.svg",
     "main.73808b79.css.map": "/react-todos-api/static/css/main.73808b79.css.map",
-    "main.c4222a8a.js.map": "/react-todos-api/static/js/main.c4222a8a.js.map",
+    "main.f837a09c.js.map": "/react-todos-api/static/js/main.f837a09c.js.map",
     "787.d2810502.chunk.js.map": "/react-todos-api/static/js/787.d2810502.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73808b79.css",
-    "static/js/main.c4222a8a.js"
+    "static/js/main.f837a09c.js"
   ]
 }
